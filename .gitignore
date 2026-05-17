@@ -1,0 +1,60 @@
+# ملفات البيئة الافتراضية
+venv/
+env/
+.venv
+
+# ملفات Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ملفات IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ملفات Blender
+*.blend
+*.blend1
+*.blend2
+
+# ملفات المشهد المُصدَّرة
+output/
+*.glb
+*.fbx
+*.obj
+*.usdz
+
+# ملفات اختبار
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ملفات التسجيل
+*.log
+logs/
+
+# ملفات النظام
+.env
+.env.local
+config.local.json

@@ -1,0 +1,47 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 5000,
+    "debug": true,
+    "threaded": true
+  },
+  "blender": {
+    "path": "/usr/bin/blender",
+    "version": "3.0+",
+    "python_path": "",
+    "startup_timeout": 30
+  },
+  "project": {
+    "name": "MCP OpenCode Blender",
+    "version": "1.0.0",
+    "author": "khalidSAT",
+    "license": "MIT"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "logs/server.log"
+  },
+  "commands": {
+    "ping": true,
+    "create_primitive": true,
+    "set_object_property": true,
+    "apply_material": true,
+    "export_scene": true,
+    "get_scene_info": true,
+    "help": true
+  },
+  "export_formats": [
+    "glb",
+    "fbx",
+    "obj",
+    "usdz",
+    "blend"
+  ],
+  "paths": {
+    "output": "./output",
+    "examples": "./examples",
+    "docs": "./docs",
+    "logs": "./logs"
+  }
+}
